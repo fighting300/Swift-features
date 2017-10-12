@@ -14,17 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let room = Room(door: 1)
-        Room(door: 3)
         print( room.door)
         
-        UIActivityType.airDrop
+        FP().calculate()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
