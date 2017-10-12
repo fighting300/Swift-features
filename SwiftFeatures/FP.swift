@@ -18,7 +18,7 @@ class FP {
             }
         }
          */
-        precondition(1 > 2, "This function can only convert 0 or 1 to Bool")
+        precondition(2 > 1, "This function can only convert 0 or 1 to Bool")
         evens = Array(1...10).filter(isEven)
         evens = Array(1...10).filter { (number) in number % 2 == 0 }
         evens = Array(1...10).filter { $0 % 2 == 0 }

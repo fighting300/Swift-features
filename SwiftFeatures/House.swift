@@ -5,9 +5,9 @@
 //  Created by Leon on 2017/10/10.
 //  Copyright © 2017年 leon. All rights reserved.
 //
+//  Designated Convenience required
 
 import Foundation
-// Designated Convenience required
 class House {
     let door: Int
     var window: Int?
